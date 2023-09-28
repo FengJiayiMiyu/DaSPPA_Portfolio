@@ -1,8 +1,8 @@
 ---
 title: "lecture3rmarkdown"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 date: "2023-09-21"
 ---
@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+
+（This is a test for lecture4 28/09/2023)
 
 ## level2 heading
 
@@ -56,3 +58,5 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
